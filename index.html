@@ -3,43 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alteryx TuneIn</title>
+    <title>Employee Training Portal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
             background-color: #f4f4f9;
         }
         header {
-            background: #6200ea;
-            color: white;
+            background-color: #333;
+            color: #fff;
             padding: 20px 0;
+            text-align: center;
         }
-        main {
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
             padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        p, li {
+            color: #666;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
         }
         footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>hi Sujata, how are you?</h1>
-    </header>
-    <main>
-        <p>This is a simple website project for hosting practice.</p>
-        <p>Feel free to customize it!</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Dummy Website</p>
-    </footer>
+
+<header>
+    <h1>Employee Training Portal</h1>
+</header>
+
+<nav>
+    <div>
+        <a href="#introduction">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+    <section id="introduction">
+        <h2>Welcome to the Training Portal</h2>
+        <p>Our training programs are designed to empower employees with the skills and knowledge they need to excel in their roles. Explore the courses below to start your learning journey!</p>
+    </section>
+
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <ul>
+            <li>Effective Communication</li>
+            <li>Leadership Essentials</li>
+            <li>Time Management Techniques</li>
+            <li>Project Management Basics</li>
+            <li>Customer Service Excellence</li>
+        </ul>
+        <a href="#contact" class="btn">Enroll Now</a>
+    </section>
+
+    <section id="schedule">
+        <h2>Training Schedule</h2>
+        <p>Here is our upcoming training schedule:</p>
+        <ul>
+            <li><strong>Effective Communication:</strong> Monday, 10:00 AM - 12:00 PM</li>
+            <li><strong>Leadership Essentials:</strong> Wednesday, 2:00 PM - 4:00 PM</li>
+            <li><strong>Time Management Techniques:</strong> Friday, 10:00 AM - 12:00 PM</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <p>Email: <a href="mailto:training@company.com">training@company.com</a></p>
+        <p>Phone: +1 (555) 123-4567</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Employee Training Portal. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
