@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Analytics</title>
+    <title>Advanced Analytics - Alteryx Training</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+        }
+        section h3 {
+            color: #0073e6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Advanced Analytics</h1>
+        <h1>Advanced Analytics in Alteryx</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="data_preparation.html">Data Preparation</a>
@@ -16,8 +57,91 @@
         </nav>
     </header>
     <main>
-        <h2>Master advanced analytics techniques in Alteryx</h2>
-        <p>Topics include predictive modeling, machine learning, and automation.</p>
+        <h2>Unlock the Full Power of Alteryx for Advanced Analytics</h2>
+        <p>Advanced Analytics in Alteryx involves techniques such as predictive analytics, machine learning, time series analysis, and spatial analytics. By leveraging these capabilities, you can create sophisticated models that provide deeper insights and drive business decisions with greater precision.</p>
+
+        <section>
+            <h3>What is Advanced Analytics?</h3>
+            <p>Advanced Analytics refers to the use of complex techniques to analyze data and make predictions. This includes techniques like machine learning, predictive modeling, and time series forecasting. Alteryx offers powerful tools for automating these processes, making it accessible even to users without a deep background in statistics or coding.</p>
+        </section>
+
+        <section>
+            <h3>Key Concepts in Advanced Analytics</h3>
+            <p>Here are the main areas of advanced analytics you will explore in Alteryx:</p>
+            <ul>
+                <li><strong>Predictive Analytics:</strong> The use of statistical models and machine learning algorithms to make predictions about future events or behaviors based on historical data.</li>
+                <li><strong>Machine Learning:</strong> A subset of AI that uses algorithms to identify patterns in data and make predictions or decisions without explicit programming. In Alteryx, tools like Decision Trees and Random Forests are used for building machine learning models.</li>
+                <li><strong>Time Series Forecasting:</strong> Techniques that analyze time-ordered data to forecast future values, which is useful for sales forecasting, demand prediction, and trend analysis.</li>
+                <li><strong>Text Analytics:</strong> Analyzing and extracting useful information from unstructured text data, such as customer reviews, social media posts, or emails.</li>
+                <li><strong>Spatial Analytics:</strong> Performing geographic analysis using location-based data, including mapping, distance calculations, and geospatial trends.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Predictive Analytics Tools in Alteryx</h3>
+            <p>Alteryx offers several tools for predictive analytics, allowing users to create models that predict future trends and behaviors:</p>
+            <ul>
+                <li><strong>Regression Analysis:</strong> Alteryx provides tools for building linear and logistic regression models, helping predict continuous outcomes or binary outcomes based on input variables.</li>
+                <li><strong>Decision Trees:</strong> A tool for building decision tree models, which are useful for classification problems where the goal is to categorize data into different classes.</li>
+                <li><strong>Random Forest:</strong> An ensemble method that builds multiple decision trees and combines their results for improved accuracy and robustness in predictive modeling.</li>
+                <li><strong>K-Means Clustering:</strong> A method for grouping data points into clusters based on similarity, often used for segmentation and grouping of data.</li>
+                <li><strong>Time Series Forecasting:</strong> Alteryx includes tools for time series analysis, such as the "Time Series" tool, which can be used to model seasonal data and forecast future trends based on historical data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Machine Learning in Alteryx</h3>
+            <p>Alteryx integrates machine learning capabilities that allow users to build models to predict future outcomes. Here are a few machine learning tools available in Alteryx:</p>
+            <ul>
+                <li><strong>AutoML:</strong> Alteryx's AutoML tool automates the process of selecting and training machine learning models. It enables both beginners and advanced users to quickly create models without needing to write any code.</li>
+                <li><strong>Training and Testing:</strong> You can split data into training and testing sets, ensuring that models are evaluated properly before deployment.</li>
+                <li><strong>Model Validation:</strong> Alteryx provides tools for evaluating model performance using metrics such as accuracy, precision, recall, and AUC (Area Under Curve).</li>
+                <li><strong>Deploying Models:</strong> Once a machine learning model is built, it can be deployed within Alteryx workflows, enabling automated predictions on new data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Text Analytics in Alteryx</h3>
+            <p>Alteryx provides a suite of tools for analyzing and extracting insights from unstructured text data, making it easier to incorporate textual data into your analytics workflows:</p>
+            <ul>
+                <li><strong>Text Parsing:</strong> Use tools like "Text to Columns" and "Regex" to extract structured information from raw text, such as customer feedback or social media posts.</li>
+                <li><strong>Sentiment Analysis:</strong> Analyze the sentiment of text data to understand customer feelings, such as whether product reviews are positive or negative.</li>
+                <li><strong>Topic Modeling:</strong> Identify the key themes or topics in large sets of textual data, which can be useful for customer feedback analysis, content categorization, etc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Spatial Analytics in Alteryx</h3>
+            <p>Alteryx includes powerful tools for spatial analytics, enabling users to perform geographic analysis and location-based insights:</p>
+            <ul>
+                <li><strong>Mapping and Geospatial Analysis:</strong> Use tools like "Create Points," "Distance," and "Spatial Match" to perform mapping and analyze geographic data.</li>
+                <li><strong>Geocoding:</strong> Convert addresses into geographic coordinates (latitude and longitude) and vice versa, enabling spatial analysis of location-based data.</li>
+                <li><strong>Buffer Analysis:</strong> Create buffer zones around points of interest to analyze data within specific geographic areas, such as store catchment areas or delivery zones.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Advanced Analytics in Practice</h3>
+            <p>Now that you are familiar with the tools and techniques available, let's look at some practical applications of advanced analytics using Alteryx:</p>
+            <ul>
+                <li><strong>Customer Segmentation:</strong> Use clustering and regression analysis to group customers based on behavior, demographics, or purchasing patterns.</li>
+                <li><strong>Churn Prediction:</strong> Apply machine learning models to predict customer churn and take proactive steps to retain valuable customers.</li>
+                <li><strong>Demand Forecasting:</strong> Utilize time series analysis and regression models to predict future sales or product demand based on historical data.</li>
+                <li><strong>Supply Chain Optimization:</strong> Use spatial and predictive analytics to optimize routes, predict delivery times, and reduce transportation costs.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Hands-On Exercises</h3>
+            <p>Put your advanced analytics skills into practice with these exercises:</p>
+            <ul>
+                <li><strong>Build a Predictive Model:</strong> Use historical sales data to build a predictive model that forecasts future sales performance.</li>
+                <li><strong>Perform Customer Segmentation:</strong> Use K-Means clustering to segment a customer dataset and identify target groups.</li>
+                <li><strong>Time Series Forecasting:</strong> Use the "Time Series" tool to forecast product demand over the next 12 months.</li>
+                <li><strong>Sentiment Analysis:</strong> Analyze customer feedback using text analytics tools to determine the overall sentiment of your customers.</li>
+            </ul>
+        </section>
+
     </main>
-</body>
-</html>
+    <footer>
+        <p>&copy; 2024 Alteryx Training | Unlock the Power of Advanced Analytics</p>
