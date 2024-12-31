@@ -44,6 +44,20 @@
             padding: 10px 0;
             margin-top: 20px;
         }
+        .video-container {
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        video::-internal-media-controls-download-button {
+            display: none;
+        }
+        video::-webkit-media-controls-enclosure {
+            overflow: hidden;
+        }
+        video::-webkit-media-controls-panel {
+            width: calc(100% + 30px); /* Prevent right-click download */
+        }
     </style>
 </head>
 <body>
